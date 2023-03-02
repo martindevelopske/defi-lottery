@@ -1,0 +1,30 @@
+{
+  "name": "lottery-decentralized-application",
+  "version": "1.0.0",
+  "description": "This is a decentralized application that interacts with smart contracts",
+  "scripts": {
+    "compile": "npx hardhat compile"
+  },
+  "devDependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "@nomiclabs/hardhat-etherscan": "^3.1.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.5",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "5.4",
+    "hardhat": "^2.12.7",
+    "hardhat-contract-sizer": "^2.8.0",
+    "hardhat-deploy": "^0.11.23",
+    "hardhat-gas-reporter": "^1.0.9",
+    "prettier": "^2.8.4",
+    "prettier-plugin-solidity": "^1.1.2",
+    "solhint": "^3.4.0",
+    "solidity-coverage": "^0.8.2"
+  },
+  "dependencies": {
+    "hardhat-shorthand": "^1.0.0",
+    "zksync-web3": "^0.13.4"
+  }
+}
